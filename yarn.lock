@@ -1087,6 +1087,10 @@
     jasmine "^3.3.1"
     typescript "~3.5.3"
 
+"@ngrx/component@github:ngrx/component-builds.git":
+  version "9.1.0"
+  resolved "https://codeload.github.com/ngrx/component-builds/tar.gz/e7493040d9f6fe13d9fb9ea1ef413d5375401dbc"
+
 "@ngtools/webpack@9.1.0":
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-9.1.0.tgz#c082d9e64e5900189e4612f657d68e5b81ae277c"
