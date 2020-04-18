@@ -17,6 +17,18 @@
   font-size: 1rem;
 }
 
+.main {
+  padding: 24px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  margin-bottom: 8px;
+}
+
 @media screen and (max-width: 600px) {
   .header {
     padding: 0 12px;

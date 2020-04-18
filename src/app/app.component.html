@@ -1,3 +1,18 @@
 <header class="header">
   <h1 class="title">{{ title }}</h1>
 </header>
+
+<main class="main">
+  <h2 class="section-title">click event</h2>
+  <section class="section">
+    <div>Message: {{ message$ | async }}</div>
+    <button (click)="showMessage()">Click</button>
+  </section>
+
+  <h2 class="section-title">Http request</h2>
+  <section class="section">
+    <ng-container *ngIf="user$ | async as user">
+      <div>{{ user.name }}</div>
+    </ng-container>
+  </section>
+</main>
