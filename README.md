@@ -1,4 +1,4 @@
-# NgBasis
+# try-zone-less-angular
 
 ![](https://github.com/kasaharu/try-zone-less-angular/workflows/Node%20CI/badge.svg)
 
