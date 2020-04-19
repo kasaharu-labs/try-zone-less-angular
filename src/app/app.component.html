@@ -11,7 +11,7 @@
 
   <h2 class="section-title">Http request</h2>
   <section class="section">
-    <ng-container *ngIf="user$ | async as user">
+    <ng-container *ngrxLet="user$ as user">
       <div>{{ user.name }}</div>
     </ng-container>
   </section>
