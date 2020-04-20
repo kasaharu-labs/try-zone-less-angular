@@ -12,10 +12,12 @@ export class AppComponent implements OnInit {
   title = 'try-zone-less-angular';
 
   messageSubject = new BehaviorSubject<string>('');
+  // tslint:disable-next-line: variable-name
+  _message$ = this.messageSubject.asObservable();
   user$: Observable<any | null> = of(null);
 
   get message$() {
-    return this.messageSubject.asObservable();
+    return this._message$;
   }
 
   ngOnInit() {
